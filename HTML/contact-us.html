@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+  </head>
+
+  <style>
+    section {
+      margin: 0% 20%;
+      height: 100%;
+      font-family: "Montserrat";
+    }
+
+    input,
+    label {
+      display: block;
+      width: 100%;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    textarea {
+      max-width: 100%;
+      width: 100%;
+      height: 100px;
+    }
+
+    form {
+      padding: 30px;
+      box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    input {
+      height: 25px;
+      padding: 2px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      position: relative;
+    }
+  </style>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="primary-nav"><a href="../index.html">SNEAKERS</a></li>
+        <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
+        <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
+        <li class="secondary-nav"><a href="../HTML/about-us.html">ABOUT</a></li>
+        <li class="secondary-nav"><a href="../HTML/contact-us.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h1>Contact Form</h1>
+      <form action="">
+        <label for="Name"
+          >Name <input type="text" name="" id="" placeholder="Name" required
+        /></label>
+        <label for="Email"
+          >Email <input type="email" name="" id="" placeholder="Email" required
+        /></label>
+        <label for="Message"
+          >Message<textarea
+            name="Message"
+            id=""
+            cols=""
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </label>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </body>
+</html>
